@@ -1,0 +1,26 @@
+.taskList {
+  box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.2);
+  z-index: 20;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.ganttTable {
+  border-bottom: #e6e4e4 1px solid;
+}
+
+.ganttTable_Header {
+  display: flex;
+  align-items: center;
+}
+
+.ganttTable_HeaderSeparator {
+  border-right: 1px solid rgb(196, 196, 196);
+  opacity: 1;
+  margin-left: -2px;
+}
+
+.ganttTable_HeaderItem {
+  display: flex;
+  padding: 0px 1rem;
+}
